@@ -6,20 +6,20 @@
 }
 
 
-.card_image {
+.card__image {
     height: 413px;
     width: 413px;
     object-fit: cover;
     display: block;
 }
 
-.card_content {
+.card__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.card_like-btn {
+.card__like-btn {
     background-image: url("../images/heart.svg");
     width: 23px;
     height: 20px;
@@ -28,7 +28,7 @@
     opacity: 40%;
 }
 @media screen and (max-width: 627px) {
-    .card_image {
+    .card__image {
         height: 288px;
     }
 }
