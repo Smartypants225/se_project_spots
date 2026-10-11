@@ -44,8 +44,6 @@ This webpage is deployed to GitHub Pages
 ## Project Pitch Video
 
 Check out the Project Spots video.
-******* PUT VIDEO LINK HERE *******
-There where indeed a few challenges where figuring out why files like profile.css, page.css, header.css, etc. were seperated and how the blocks/elements/modifiers connected
+## Project Pitch Video
 
-
-
+[Spots Project Pitch Video](https://www.loom.com/share/31b8d4a84283477392c67ca6bb08a8f8), where I explain my project, the technologies I used, and the challenges I overcame.
