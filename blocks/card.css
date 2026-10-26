@@ -1,25 +1,32 @@
 .card {
-    max-width: 413px;
-    height: 413px;
-    border-radius: 10px;
 
 }
 
+.card__title {
+    margin: 12px 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
 
 .card__image {
     height: 413px;
     width: 413px;
     object-fit: cover;
     display: block;
+    border-radius: 8px;
 }
 
 .card__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 12px;
 }
 
-.card__like-btn {
+.card__like-button {
     background-image: url("../images/heart.svg");
     width: 23px;
     height: 20px;
@@ -30,5 +37,6 @@
 @media screen and (max-width: 627px) {
     .card__image {
         height: 288px;
+        width: 288px;
     }
 }
