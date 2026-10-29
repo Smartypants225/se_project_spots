@@ -1,12 +1,8 @@
-.card {
-
-}
-
 .card__title {
     margin: 12px 0;
     font-family: "Inter", sans-serif;
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 20px;
     line-height: 22px;
     color: #000000;
 }
@@ -33,10 +29,26 @@
     border: none;
     background-color: transparent;
     opacity: 40%;
+    cursor: pointer;
 }
+
+.card__like-button:hover {
+    opacity: 100%;
+}
+
 @media screen and (max-width: 627px) {
     .card__image {
         height: 288px;
         width: 288px;
     }
+}
+
+.card__like-button {
+  height: 18px;
+  background-size: 18px;
+  background-repeat: no-repeat;
+}
+
+.card__title {
+  font-size: 16px;
 }
