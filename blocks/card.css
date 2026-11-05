@@ -1,6 +1,5 @@
 .card__title {
-    margin: 12px 0;
-    font-family: "Inter", sans-serif;
+    margin: 0;
     font-weight: 500;
     font-size: 20px;
     line-height: 22px;
@@ -41,7 +40,6 @@
         height: 288px;
         width: 288px;
     }
-}
 
 .card__like-button {
   height: 18px;
