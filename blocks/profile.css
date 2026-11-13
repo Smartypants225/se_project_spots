@@ -38,14 +38,20 @@
   max-width: 420px;
   opacity: 0.7;
 
+  .profile__edit-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgba(33, 33, 33, 0.1);
+    background-color: transparent;
+    border: none;
+    margin-top: auto;
+    margin-left: auto;
+  }
+
+
 }
 .profile__edit-btn:hover {
-  margin-top:auto;
-  width: fit-content;
-  border: none;
-  text-align: center;
-  font-weight: 500;
-  font-size: 16px;
   opacity: 0.7;
   cursor: pointer;
 }
@@ -74,6 +80,12 @@
   }
   .profile__edit-btn {
     margin: 0 auto 20px auto;
+    cursor: pointer;
+    width: fit-content;
+    border: none;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
   }
   .profile__avatar {
     width: 80px;
