@@ -37,8 +37,9 @@
   -webkit-box-orient: vertical;
   max-width: 420px;
   opacity: 0.7;
+}
 
-  .profile__edit-btn {
+  .profile_edit-btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -49,9 +50,8 @@
     margin-left: auto;
   }
 
-
 }
-.profile__edit-btn:hover {
+.profile_edit-btn:hover {
   opacity: 0.7;
   cursor: pointer;
 }
@@ -78,7 +78,7 @@
     text-align: center;
     padding: 20px;
   }
-  .profile__edit-btn {
+  .profile_edit-btn {
     margin: 0 auto 20px auto;
     cursor: pointer;
     width: fit-content;
